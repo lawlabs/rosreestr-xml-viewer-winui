@@ -19,7 +19,7 @@
 
 | Зависимость | Источник условий |
 | --- | --- |
-| AngleSharp | [репозиторий и MIT](https://github.com/AngleSharp/AngleSharp/blob/main/LICENSE) |
+| AngleSharp | [репозиторий и MIT](https://github.com/AngleSharp/AngleSharp/blob/devel/LICENSE) |
 | Windows App SDK / WinUI / WebView2 | [Windows App SDK](https://github.com/microsoft/WindowsAppSDK), лицензии соответствующих NuGet-пакетов |
 | Windows SDK BuildTools и WinUIAnalyzer | лицензии соответствующих NuGet-пакетов Microsoft |
 | Windows SDK BuildTools WinApp | [WinApp CLI](https://github.com/microsoft/WinAppCli), лицензия NuGet-пакета |
