@@ -1,0 +1,64 @@
+# Build output and development caches
+**/[Bb]in/
+**/[Oo]bj/
+.vs/
+.idea/
+.vscode/
+.winapp/
+packages/
+TestResults/
+AppPackages/
+BundleArtifacts/
+Generated Files/
+
+# Local reports, UI captures, imported extracts and application state
+/artifacts/
+/private/
+/local-data/
+/imports/
+session.txt
+*.log
+*.dmp
+*.tmp
+*.bak
+*.db
+*.sqlite*
+*.pdf
+*.zip
+*.7z
+*.rar
+*.sig
+*.p7s
+# XML fixtures and pinned template dictionaries are the only checked-in XML.
+*.xml
+!/Samples/*.xml
+!/Templates/**/*.xml
+
+# Per-user IDE, publishing settings, credentials and signing material
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pubxml.user
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
+*.snk
+*.cer
+*.csr
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.appxsym
+*.appxupload
+*.msixupload
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

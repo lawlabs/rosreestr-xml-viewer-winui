@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RosreestrViewer (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "RosreestrViewer (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

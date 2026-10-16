@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Вымышленная вторая версия для сравнения. -->
+<extract_about_property_land xmlns="urn:demo:egrn" version="01">
+  <details_statement><date_formation>2026-10-14</date_formation></details_statement>
+  <land_record><object><common_data><cad_number>50:21:0010203:456</cad_number></common_data></object>
+    <area><value>1205</value></area><address><readable_address>Московская область, демонстрационный участок, улица Лесная, 12</readable_address></address>
+    <purpose>Для индивидуального жилищного строительства</purpose><cost><value>3900000.00</value></cost><status>Учтённый</status>
+    <contours><contour><entity_spatial><sk_id>МСК-50 (демонстрация)</sk_id><spatial_element>
+      <ordinate><x>450000</x><y>2200000</y><ord_nmb>1</ord_nmb></ordinate><ordinate><x>450000</x><y>2200030</y><ord_nmb>2</ord_nmb></ordinate>
+      <ordinate><x>450040</x><y>2200030</y><ord_nmb>3</ord_nmb></ordinate><ordinate><x>450041</x><y>2200000</y><ord_nmb>4</ord_nmb></ordinate><ordinate><x>450000</x><y>2200000</y><ord_nmb>1</ord_nmb></ordinate>
+    </spatial_element></entity_spatial></contour></contours>
+  </land_record>
+  <right_records><right_record><right_data><type>Собственность</type><right_number>50:21:0010203:456-50/001/2020-1</right_number><registration_date>2020-05-20</registration_date></right_data><right_holders><right_holder><individual><surname>Примеров</surname><name>Алексей</name><patronymic>Иванович</patronymic></individual></right_holder></right_holders></right_record></right_records>
+  <restrict_records><restrict_record><type>Ипотека</type><restriction_number>50:21:0010203:456-50/001/2026-2</restriction_number><registration_date>2026-10-01</registration_date></restrict_record></restrict_records>
+</extract_about_property_land>

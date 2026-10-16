@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Rosreestr XML Viewer — Office ribbon</title>
+  <desc id="desc">Four folded ribbon quadrants: blue upper left, silver upper right, graphite lower left, green lower right. A transparent cross separates them.</desc>
+  <defs>
+    <path id="middle-ribbon" d="M-16-16H432V181C432 254 399 281 326 288L134 306C46 315-16 357-16 442Z"/>
+    <path id="top-ribbon" d="M-16-16H432V38C432 111 401 140 328 148L143 166C47 176-16 221-16 321Z"/>
+    <filter id="fold-shadow" x="-32" y="-32" width="480" height="500" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="6"/></filter>
+    <linearGradient id="blue-base" x1="8" y1="195" x2="416" y2="429" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#053277"/><stop offset="1" stop-color="#1255CB"/>
+  </linearGradient>
+  <linearGradient id="blue-mid" x1="0" y1="215" x2="416" y2="240" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#35B8F6"/><stop offset=".64" stop-color="#0878DF"/><stop offset="1" stop-color="#1466D9"/>
+  </linearGradient>
+  <linearGradient id="blue-top" x1="0" y1="75" x2="416" y2="142" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#83E8FC"/><stop offset=".43" stop-color="#35C8FA"/><stop offset="1" stop-color="#2594ED"/>
+  </linearGradient>
+  <radialGradient id="blue-glint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(391 8) rotate(149) scale(348 294)">
+    <stop stop-color="#BCF5FF" stop-opacity=".46"/><stop offset="1" stop-color="#BCF5FF" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="blue-body-light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(385 401) rotate(-147) scale(397 280)">
+    <stop stop-color="#35B8F6" stop-opacity=".14"/><stop offset="1" stop-color="#35B8F6" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="blue-clip"><path d="M176 0H404Q416 0 416 12V404Q416 416 404 416H12Q0 416 0 404V176C0 78.798 78.798 0 176 0Z"/></clipPath>
+<linearGradient id="silver-base" x1="8" y1="195" x2="416" y2="429" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#667382"/><stop offset="1" stop-color="#9DA9B8"/>
+  </linearGradient>
+  <linearGradient id="silver-mid" x1="0" y1="215" x2="416" y2="240" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#C3CDD8"/><stop offset=".64" stop-color="#9EACBC"/><stop offset="1" stop-color="#8D9BAB"/>
+  </linearGradient>
+  <linearGradient id="silver-top" x1="0" y1="75" x2="416" y2="142" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#EEF3F8"/><stop offset=".43" stop-color="#D2DBE5"/><stop offset="1" stop-color="#B8C5D4"/>
+  </linearGradient>
+  <radialGradient id="silver-glint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(391 8) rotate(149) scale(348 294)">
+    <stop stop-color="#F6FAFF" stop-opacity=".46"/><stop offset="1" stop-color="#F6FAFF" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="silver-body-light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(385 401) rotate(-147) scale(397 280)">
+    <stop stop-color="#C3CDD8" stop-opacity=".14"/><stop offset="1" stop-color="#C3CDD8" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="silver-clip"><path d="M12 0H240C337.202 0 416 78.798 416 176V404Q416 416 404 416H12Q0 416 0 404V12Q0 0 12 0Z"/></clipPath>
+<linearGradient id="graphite-base" x1="8" y1="195" x2="416" y2="429" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#27313D"/><stop offset="1" stop-color="#526071"/>
+  </linearGradient>
+  <linearGradient id="graphite-mid" x1="0" y1="215" x2="416" y2="240" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7D8C9E"/><stop offset=".64" stop-color="#627387"/><stop offset="1" stop-color="#506176"/>
+  </linearGradient>
+  <linearGradient id="graphite-top" x1="0" y1="75" x2="416" y2="142" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#ABB9C8"/><stop offset=".43" stop-color="#8B9EB2"/><stop offset="1" stop-color="#758BA4"/>
+  </linearGradient>
+  <radialGradient id="graphite-glint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(391 8) rotate(149) scale(348 294)">
+    <stop stop-color="#DCE8F4" stop-opacity=".46"/><stop offset="1" stop-color="#DCE8F4" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="graphite-body-light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(385 401) rotate(-147) scale(397 280)">
+    <stop stop-color="#7D8C9E" stop-opacity=".14"/><stop offset="1" stop-color="#7D8C9E" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="graphite-clip"><path d="M12 0H404Q416 0 416 12V404Q416 416 404 416H176C78.798 416 0 337.202 0 240V12Q0 0 12 0Z"/></clipPath>
+<linearGradient id="green-base" x1="8" y1="195" x2="416" y2="429" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#064C30"/><stop offset="1" stop-color="#178D43"/>
+  </linearGradient>
+  <linearGradient id="green-mid" x1="0" y1="215" x2="416" y2="240" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#42CC7B"/><stop offset=".64" stop-color="#38AF59"/><stop offset="1" stop-color="#359B44"/>
+  </linearGradient>
+  <linearGradient id="green-top" x1="0" y1="75" x2="416" y2="142" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#8CEB9A"/><stop offset=".43" stop-color="#7DDD72"/><stop offset="1" stop-color="#B5EA76"/>
+  </linearGradient>
+  <radialGradient id="green-glint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(391 8) rotate(149) scale(348 294)">
+    <stop stop-color="#D9F6A2" stop-opacity=".46"/><stop offset="1" stop-color="#D9F6A2" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="green-body-light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(385 401) rotate(-147) scale(397 280)">
+    <stop stop-color="#42CC7B" stop-opacity=".14"/><stop offset="1" stop-color="#42CC7B" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="green-clip"><path d="M12 0H404Q416 0 416 12V240C416 337.202 337.202 416 240 416H12Q0 416 0 404V12Q0 0 12 0Z"/></clipPath>
+  </defs>
+  <g id="quadrant-blue" transform="translate(64 64)" aria-label="blue">
+    <g clip-path="url(#blue-clip)">
+      <path d="M176 0H404Q416 0 416 12V404Q416 416 404 416H12Q0 416 0 404V176C0 78.798 78.798 0 176 0Z" fill="url(#blue-base)"/>
+      <path d="M176 0H404Q416 0 416 12V404Q416 416 404 416H12Q0 416 0 404V176C0 78.798 78.798 0 176 0Z" fill="url(#blue-body-light)"/>
+      <use href="#middle-ribbon" transform="translate(0 6)" fill="#002558" opacity=".34" filter="url(#fold-shadow)"/>
+      <use href="#middle-ribbon" fill="url(#blue-mid)"/>
+      <use href="#top-ribbon" transform="translate(0 6)" fill="#002558" opacity=".32" filter="url(#fold-shadow)"/>
+      <use href="#top-ribbon" fill="url(#blue-top)"/>
+      <use href="#top-ribbon" fill="url(#blue-glint)"/>
+    </g>
+  </g>
+<g id="quadrant-silver" transform="translate(544 64)" aria-label="silver">
+    <g clip-path="url(#silver-clip)">
+      <path d="M12 0H240C337.202 0 416 78.798 416 176V404Q416 416 404 416H12Q0 416 0 404V12Q0 0 12 0Z" fill="url(#silver-base)"/>
+      <path d="M12 0H240C337.202 0 416 78.798 416 176V404Q416 416 404 416H12Q0 416 0 404V12Q0 0 12 0Z" fill="url(#silver-body-light)"/>
+      <use href="#middle-ribbon" transform="translate(0 6)" fill="#48596F" opacity=".34" filter="url(#fold-shadow)"/>
+      <use href="#middle-ribbon" fill="url(#silver-mid)"/>
+      <use href="#top-ribbon" transform="translate(0 6)" fill="#48596F" opacity=".32" filter="url(#fold-shadow)"/>
+      <use href="#top-ribbon" fill="url(#silver-top)"/>
+      <use href="#top-ribbon" fill="url(#silver-glint)"/>
+    </g>
+  </g>
+<g id="quadrant-graphite" transform="translate(64 544)" aria-label="graphite">
+    <g clip-path="url(#graphite-clip)">
+      <path d="M12 0H404Q416 0 416 12V404Q416 416 404 416H176C78.798 416 0 337.202 0 240V12Q0 0 12 0Z" fill="url(#graphite-base)"/>
+      <path d="M12 0H404Q416 0 416 12V404Q416 416 404 416H176C78.798 416 0 337.202 0 240V12Q0 0 12 0Z" fill="url(#graphite-body-light)"/>
+      <use href="#middle-ribbon" transform="translate(0 6)" fill="#192534" opacity=".34" filter="url(#fold-shadow)"/>
+      <use href="#middle-ribbon" fill="url(#graphite-mid)"/>
+      <use href="#top-ribbon" transform="translate(0 6)" fill="#192534" opacity=".32" filter="url(#fold-shadow)"/>
+      <use href="#top-ribbon" fill="url(#graphite-top)"/>
+      <use href="#top-ribbon" fill="url(#graphite-glint)"/>
+    </g>
+  </g>
+<g id="quadrant-green" transform="translate(544 544)" aria-label="green">
+    <g clip-path="url(#green-clip)">
+      <path d="M12 0H404Q416 0 416 12V240C416 337.202 337.202 416 240 416H12Q0 416 0 404V12Q0 0 12 0Z" fill="url(#green-base)"/>
+      <path d="M12 0H404Q416 0 416 12V240C416 337.202 337.202 416 240 416H12Q0 416 0 404V12Q0 0 12 0Z" fill="url(#green-body-light)"/>
+      <use href="#middle-ribbon" transform="translate(0 6)" fill="#054829" opacity=".34" filter="url(#fold-shadow)"/>
+      <use href="#middle-ribbon" fill="url(#green-mid)"/>
+      <use href="#top-ribbon" transform="translate(0 6)" fill="#054829" opacity=".32" filter="url(#fold-shadow)"/>
+      <use href="#top-ribbon" fill="url(#green-top)"/>
+      <use href="#top-ribbon" fill="url(#green-glint)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Вымышленный пример без графики и персональных данных. -->
+<extract_base_params_room xmlns="urn:demo:egrn" version="01"><details_statement><date_formation>2026-10-10</date_formation></details_statement>
+  <room_record><object><common_data><cad_number>77:01:0001001:1234</cad_number></common_data></object><area><value>64.8</value></area><address><readable_address>г. Москва, Демонстрационная улица, дом 8, квартира 24</readable_address></address><purpose>Жилое помещение</purpose></room_record>
+  <right_records><right_record><right_data><type>Общая долевая собственность</type><right_number>77:01:0001001:1234-77/001/2024-1</right_number><registration_date>2024-03-15</registration_date><share><numerator>1</numerator><denominator>2</denominator></share></right_data><right_holders><right_holder><content>Физическое лицо, персональные данные не предоставлены</content></right_holder></right_holders></right_record></right_records>
+</extract_base_params_room>

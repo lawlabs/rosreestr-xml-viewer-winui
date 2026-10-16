@@ -1,0 +1,493 @@
+{
+  "forms": [
+    {
+      "id": "egrp-list-07",
+      "version": "07",
+      "name": "ЕГРП: переход прав · 07",
+      "namespace": "",
+      "source": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Common.xsl",
+      "root": "Extract",
+      "origin": "RosreestrArchive"
+    },
+    {
+      "id": "kpoks-04",
+      "origin": "RosreestrArchive",
+      "source": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl",
+      "aliases": [
+        "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/Common.xsl"
+      ],
+      "namespace": "urn://x-artefacts-rosreestr-ru/outgoing/kpoks/4.0.1",
+      "version": "",
+      "root": "KPOKS",
+      "name": "Кадастровый паспорт ОКС · 4.0.1"
+    },
+    {
+      "id": "kvoks-03",
+      "version": "",
+      "name": "Кадастровая выписка ОКС · 3.0.1",
+      "namespace": "urn://x-artefacts-rosreestr-ru/outgoing/kvoks/3.0.1",
+      "source": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/Common.xsl",
+      "root": "KVOKS",
+      "origin": "RosreestrArchive"
+    },
+    {
+      "id": "kvzu-07",
+      "version": "",
+      "name": "Кадастровая выписка участка · 7.0.1",
+      "namespace": "urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1",
+      "source": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/Common.xsl",
+      "root": "KVZU",
+      "origin": "RosreestrArchive"
+    },
+    {
+      "id": "extract_about_property_build",
+      "version": "",
+      "name": "extract_about_property_build · архивный сторонний XSL",
+      "namespace": "",
+      "source": "https://legalcalc.ru/xslt/extract_about_property_build.xsl",
+      "root": "extract_about_property_build",
+      "origin": "ThirdPartyArchive"
+    },
+    {
+      "id": "extract_about_property_room",
+      "version": "",
+      "name": "extract_about_property_room · архивный сторонний XSL",
+      "namespace": "",
+      "source": "https://legalcalc.ru/xslt/extract_about_property_room.xsl",
+      "root": "extract_about_property_room",
+      "origin": "ThirdPartyArchive"
+    },
+    {
+      "id": "extract_about_property_car_parking_space",
+      "version": "",
+      "name": "extract_about_property_car_parking_space · архивный сторонний XSL",
+      "namespace": "",
+      "source": "https://legalcalc.ru/xslt/extract_about_property_car_parking_space.xsl",
+      "root": "extract_about_property_car_parking_space",
+      "origin": "ThirdPartyArchive"
+    },
+    {
+      "id": "extract_transfer_rights_property",
+      "version": "",
+      "name": "extract_transfer_rights_property · архивный сторонний XSL",
+      "namespace": "",
+      "source": "https://legalcalc.ru/xslt/extract_transfer_rights_property.xsl",
+      "root": "extract_transfer_rights_property",
+      "origin": "ThirdPartyArchive"
+    }
+  ],
+  "version": 1,
+  "resources": [
+    {
+      "uri": "https://legalcalc.ru/xslt/extract_about_property_build.xsl",
+      "file": "Archive/legalcalc.ru/xslt/extract_about_property_build.xsl",
+      "sha256": "FDA6A01A5CA1D7E83C94FB34182986726A67D296DABDDE3130A274C057F8C348"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/extract_about_property_car_parking_space.xsl",
+      "file": "Archive/legalcalc.ru/xslt/extract_about_property_car_parking_space.xsl",
+      "sha256": "92D98E5306C1CBD7C59AA868236D387779FF96D4C79C9A892F6F9EE27E3D0F16"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/extract_about_property_room.xsl",
+      "file": "Archive/legalcalc.ru/xslt/extract_about_property_room.xsl",
+      "sha256": "2E70CD0B9FF60C215BA38DA88740008327956EC44DD8317D2778A944D95EEECD"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/extract_transfer_rights_property.xsl",
+      "file": "Archive/legalcalc.ru/xslt/extract_transfer_rights_property.xsl",
+      "sha256": "13118DBA0559D07509E0CF11F0A06675E9C64FC88DEB67CDDC04EBD6C9E4DA59"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/format_datetime.xsl",
+      "file": "Archive/legalcalc.ru/xslt/format_datetime.xsl",
+      "sha256": "5726AAFE5BF26142350CE79F867FBF9A814549C8298D5B7D744AD2D5BE60E8F5"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/format-datetime.xsl",
+      "file": "Archive/legalcalc.ru/xslt/format-datetime.xsl",
+      "sha256": "381D36EAF31A055C1DE5F6358AFB8B130180807C1133A3F0156AF2D19D65AE59"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/group_top_requisites.xsl",
+      "file": "Archive/legalcalc.ru/xslt/group_top_requisites.xsl",
+      "sha256": "51A1F70203D7DCDFB856298DADB6218F50D57C1C2CD2AB886AB83CB449D2B212"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/record_info.xsl",
+      "file": "Archive/legalcalc.ru/xslt/record_info.xsl",
+      "sha256": "FE2562B421E5D6558B4054F04F1C3F658D5CE19E1E076E0E3B0C909A6915975D"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/right_records.xsl",
+      "file": "Archive/legalcalc.ru/xslt/right_records.xsl",
+      "sha256": "E793F82BF3FC74E456437D61092E2BFC557C5F2B9D69232CFD3E10B87FE6079C"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/build_record/record_info.xsl",
+      "file": "Archive/legalcalc.ru/xslt/build_record/record_info.xsl",
+      "sha256": "C9D89A5C16707BCAC406C33035C46B828D61989071E50AF82B9D52A4668E6FD2"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/room_record/record_info.xsl",
+      "file": "Archive/legalcalc.ru/xslt/room_record/record_info.xsl",
+      "sha256": "79504ECBCE971367D7B05F3B67E862BB3D564D8025C0884602778300A8CF70A1"
+    },
+    {
+      "uri": "https://legalcalc.ru/xslt/styles/style_tables.xsl",
+      "file": "Archive/legalcalc.ru/xslt/styles/style_tables.xsl",
+      "sha256": "03071029C9F567AE23C8BB95754533C83B0AA0743003B04B6142A056A7FA5492"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/Common.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/Common.xsl",
+      "sha256": "791742861D4C81D93C948872894AC3B7A26703842DAD622526A027FF250B73E3"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/dict/months.xml",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/dict/months.xml",
+      "sha256": "448B372FB1B9171EB75911E4F80805456BFB1C2A3E3E464EEB82905AA9071C0D"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "sha256": "E6D8D2471619F6A71584CB2A2F2DD9C1287D636E54B57268C15E982D87901B37"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dAssBuilding_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dAssBuilding_v01.xsd",
+      "sha256": "6E9DA93020F9305A18553A17E58772427A9E83983372AC8751B5257082CFA478"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dAssFlatType_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dAssFlatType_v01.xsd",
+      "sha256": "A84308B442E41625881AC71EA9ECFED2BE50E714B3B829D85A5D4C37FC8B7302"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dCultural_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dCultural_v01.xsd",
+      "sha256": "737E19BFA1A67EDC7CA9477D86D5A82676FEC0BD1BFF01F8C9627F9F9F2797C6"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dEncumbrances_v03.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dEncumbrances_v03.xsd",
+      "sha256": "93EEF6DEC5D5E55F9F45958B6DC6A9168FCC657849E3537F84B89B3251698073"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dOldNumber_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dOldNumber_v01.xsd",
+      "sha256": "82E3FD7FFF5BCB15283D3737CC1B0C03C0AA1D1E95C1E54C37E35724ECFEC4D4"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dRegionsRF_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dRegionsRF_v01.xsd",
+      "sha256": "E0259DF1222BCA7A6464BD069DA0C9A9872DB722BD42C124EAE5B18F3FBC6081"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dTypeParameter_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dTypeParameter_v01.xsd",
+      "sha256": "AC4C8B0F73557A29B96FFB206267785067606DB404C85D8DDB94936E0C822260"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dTypeStorey_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dTypeStorey_v01.xsd",
+      "sha256": "69558934667383E0F9AE74B5EB2E876869704AB4AB00605943EA458C8940488C"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dWall_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/schema/KVOKS_v07/SchemaCommon/dWall_v01.xsd",
+      "sha256": "6A54CCAE871D2C360530062D939D3D07098E5969B2E8E0299E36B0162BA0979F"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl",
+      "sha256": "865DC90C544FFC8707A7522784F85AC324F83E0161ABFEE38FDD7B9B6C1105D7"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/dict/months.xml",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/dict/months.xml",
+      "sha256": "448B372FB1B9171EB75911E4F80805456BFB1C2A3E3E464EEB82905AA9071C0D"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/dict/unit_measure_qual.xml",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/dict/unit_measure_qual.xml",
+      "sha256": "69012EEA4796D758FAFC607645F538E20578B5983322D6E41D6FD39E0206658C"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "sha256": "E6D8D2471619F6A71584CB2A2F2DD9C1287D636E54B57268C15E982D87901B37"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dAssFlat_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dAssFlat_v01.xsd",
+      "sha256": "29E9C98954780F5B1C4D8B5C3C31D1A167480A6983875CA287F246957BEBB07C"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dAssFlatType_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dAssFlatType_v01.xsd",
+      "sha256": "7FDD652F7FB6600B026FC6561B9FB384919AB1B838812FB4318DC52983E56B59"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dCultural_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dCultural_v01.xsd",
+      "sha256": "737E19BFA1A67EDC7CA9477D86D5A82676FEC0BD1BFF01F8C9627F9F9F2797C6"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dEncumbrances_v03.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dEncumbrances_v03.xsd",
+      "sha256": "93EEF6DEC5D5E55F9F45958B6DC6A9168FCC657849E3537F84B89B3251698073"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dOldNumber_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dOldNumber_v01.xsd",
+      "sha256": "82E3FD7FFF5BCB15283D3737CC1B0C03C0AA1D1E95C1E54C37E35724ECFEC4D4"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dRegionsRF_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dRegionsRF_v01.xsd",
+      "sha256": "E0259DF1222BCA7A6464BD069DA0C9A9872DB722BD42C124EAE5B18F3FBC6081"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dTypeParameter_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dTypeParameter_v01.xsd",
+      "sha256": "AC4C8B0F73557A29B96FFB206267785067606DB404C85D8DDB94936E0C822260"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dTypeStorey_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KPOKS_v04/SchemaCommon/dTypeStorey_v01.xsd",
+      "sha256": "69558934667383E0F9AE74B5EB2E876869704AB4AB00605943EA458C8940488C"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KVOKS_v07/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KVOKS_v07/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "sha256": "A84308B442E41625881AC71EA9ECFED2BE50E714B3B829D85A5D4C37FC8B7302"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KVOKS_v07/SchemaCommon/dCultural_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KVOKS_v07/SchemaCommon/dCultural_v01.xsd",
+      "sha256": "A84308B442E41625881AC71EA9ECFED2BE50E714B3B829D85A5D4C37FC8B7302"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KVOKS_v07/SchemaCommon/dTypeParameter_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KVOKS_v07/SchemaCommon/dTypeParameter_v01.xsd",
+      "sha256": "A84308B442E41625881AC71EA9ECFED2BE50E714B3B829D85A5D4C37FC8B7302"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KVOKS_v07/SchemaCommon/dWall_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/schema/KVOKS_v07/SchemaCommon/dWall_v01.xsd",
+      "sha256": "A84308B442E41625881AC71EA9ECFED2BE50E714B3B829D85A5D4C37FC8B7302"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/Common.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/Common.xsl",
+      "sha256": "B6313963226327E556D17D192D48EADD5AC4149DE0F796DBB516D17FAC5C9A9C"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/dict/months.xml",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/dict/months.xml",
+      "sha256": "448B372FB1B9171EB75911E4F80805456BFB1C2A3E3E464EEB82905AA9071C0D"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/dict/unit_measure_qual.xml",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/dict/unit_measure_qual.xml",
+      "sha256": "69012EEA4796D758FAFC607645F538E20578B5983322D6E41D6FD39E0206658C"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "sha256": "E6D8D2471619F6A71584CB2A2F2DD9C1287D636E54B57268C15E982D87901B37"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dAllowedUse_v02.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dAllowedUse_v02.xsd",
+      "sha256": "48C8419399E57DCBF4D139C2D0E74F913CD21A06DEE5FBFEED1E022B62281D12"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dCategories_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dCategories_v01.xsd",
+      "sha256": "63295881A70F75F7F3AFC269C32DAC0D9DCAE3B27C78DE0CB3DD00E8C27E9E01"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dEncumbrances_v03.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dEncumbrances_v03.xsd",
+      "sha256": "93EEF6DEC5D5E55F9F45958B6DC6A9168FCC657849E3537F84B89B3251698073"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dForestCategoryProtective_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dForestCategoryProtective_v01.xsd",
+      "sha256": "826FFF08CBAFEEB918E9E62FFBB63D004DB600B5008DEDEFC9BC34A9E4E25208"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dForestEncumbrances_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dForestEncumbrances_v01.xsd",
+      "sha256": "B3737CB5C3000390E00D667B1DA5567E40F00E8A96368698EE372F768C25AD53"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dForestUse_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dForestUse_v01.xsd",
+      "sha256": "34FC0580CD0DFE2BEE81509576ADC3A992587C11AC204551B5CB04F6F7F0E079"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dNaturalObjects_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dNaturalObjects_v01.xsd",
+      "sha256": "DE5BEF5C687E745A4D0B4EDA9896CF5B382705E74A361953D895A906E463DBDC"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dOldNumber_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dOldNumber_v01.xsd",
+      "sha256": "82E3FD7FFF5BCB15283D3737CC1B0C03C0AA1D1E95C1E54C37E35724ECFEC4D4"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dRegionsRF_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dRegionsRF_v01.xsd",
+      "sha256": "E0259DF1222BCA7A6464BD069DA0C9A9872DB722BD42C124EAE5B18F3FBC6081"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/schema/KVZU_v07/SchemaCommon/dUtilizations_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/Land/07/schema/KVZU_v07/SchemaCommon/dUtilizations_v01.xsd",
+      "sha256": "E6F29ADD725FF8D381A86C5D289D95D222121567659A71535DA17444FEFC6E4B"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/dict/months.xml",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/dict/months.xml",
+      "sha256": "448B372FB1B9171EB75911E4F80805456BFB1C2A3E3E464EEB82905AA9071C0D"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dAllDocumentsOut_v03.xsd",
+      "sha256": "E6D8D2471619F6A71584CB2A2F2DD9C1287D636E54B57268C15E982D87901B37"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dAssBuilding_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dAssBuilding_v01.xsd",
+      "sha256": "6E9DA93020F9305A18553A17E58772427A9E83983372AC8751B5257082CFA478"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dAssFlat_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dAssFlat_v01.xsd",
+      "sha256": "29E9C98954780F5B1C4D8B5C3C31D1A167480A6983875CA287F246957BEBB07C"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dAssFlatType_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dAssFlatType_v01.xsd",
+      "sha256": "7FDD652F7FB6600B026FC6561B9FB384919AB1B838812FB4318DC52983E56B59"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dCultural_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dCultural_v01.xsd",
+      "sha256": "737E19BFA1A67EDC7CA9477D86D5A82676FEC0BD1BFF01F8C9627F9F9F2797C6"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dEncumbrances_v03.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dEncumbrances_v03.xsd",
+      "sha256": "93EEF6DEC5D5E55F9F45958B6DC6A9168FCC657849E3537F84B89B3251698073"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dOldNumber_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dOldNumber_v01.xsd",
+      "sha256": "82E3FD7FFF5BCB15283D3737CC1B0C03C0AA1D1E95C1E54C37E35724ECFEC4D4"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dRegionsRF_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dRegionsRF_v01.xsd",
+      "sha256": "E0259DF1222BCA7A6464BD069DA0C9A9872DB722BD42C124EAE5B18F3FBC6081"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dRights_v02.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dRights_v02.xsd",
+      "sha256": "50B6FCB52705B9C65CC74319642261994385ACF497D7D6D5E10EE560D437F7C2"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dTypeParameter_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dTypeParameter_v01.xsd",
+      "sha256": "AC4C8B0F73557A29B96FFB206267785067606DB404C85D8DDB94936E0C822260"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dTypeStorey_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dTypeStorey_v01.xsd",
+      "sha256": "69558934667383E0F9AE74B5EB2E876869704AB4AB00605943EA458C8940488C"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dWall_v01.xsd",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Gkn/OKS/07/schema/KPOKS_v04/SchemaCommon/dWall_v01.xsd",
+      "sha256": "6A54CCAE871D2C360530062D939D3D07098E5969B2E8E0299E36B0162BA0979F"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Common.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Common.xsl",
+      "sha256": "7057D86126843F7E917E4169E3BB4740F6E57E35976F179EE854AFF15049EB9D"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Extract.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Extract.xsl",
+      "sha256": "6466D6ED6B0FA91E7BBFBEA2177018C4D1F766394FDBE565084D76B564923D28"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Footer.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Footer.xsl",
+      "sha256": "020FFF9538E01ECFB70CE7D6F2E888FE4FAB7763E698C4CBDE06659D7BB899A9"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Header.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Header.xsl",
+      "sha256": "12077ECD30327BB2A0D7148B9FC0DB3C07674B17B64A939C4B2A472A23B42392"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/List.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/List.xsl",
+      "sha256": "1FCB3BA5504D46C5797B8A5559BCE329927E16CE9A63B03ADA8067B47E2ED6AA"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Notice.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Notice.xsl",
+      "sha256": "AD0EF054EFEE5B4EDE85529B4016861F57431EDD626C76D50CF9D6C2FA143D6B"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Output.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Output.xsl",
+      "sha256": "1B26233E24ABBA244353B64933F98ED9BE55FE6CA3E311EC459D79226F9B4397"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Refusal.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Refusal.xsl",
+      "sha256": "EB47696C6156CE2569AEB88B908BEC450F2B9FFC02342828CDE8BE51890AF525"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Extract.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Extract.xsl",
+      "sha256": "3F11F617C151C9E18E694C25EB2D20BFE1867C53D5505C8AFF7717E45540D24D"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Footer.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Footer.xsl",
+      "sha256": "8B56C3DC1D581685C68F60D3B1540A468EF2BB1E2B0695817583651D0D77A247"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Header.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Header.xsl",
+      "sha256": "A394229A190463EA3EE731BEA1E6D6710542661528C4AD9AC984CD4184CF233C"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Notice.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Notice.xsl",
+      "sha256": "615643271F30322F6591B6F035AD3E7A3D6351C7D34C37CD8D17934769FCB3D4"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Object.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Object.xsl",
+      "sha256": "D38A0E868A3B1F4A88112DCBEAE8E0064C039777086F0699D56C5EF54C4A59C5"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Output.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Output.xsl",
+      "sha256": "09F3A8537811A1C4C808FA6E07672823661E3EFFBDCB57916175C98344738DC0"
+    },
+    {
+      "uri": "https://portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Refusal.xsl",
+      "file": "Archive/portal.rosreestr.ru/xsl/EGRP_FIR/Reestr_Extract_Object/03/Refusal.xsl",
+      "sha256": "ED47C1DA419CDB85926F1FF712527D6E3972C9F58BD1D94B4815B636AC082136"
+    }
+  ],
+  "importedFrom": "rosreestr-xml-viewer-delphi/Resources/XLT/XSLRC"
+}

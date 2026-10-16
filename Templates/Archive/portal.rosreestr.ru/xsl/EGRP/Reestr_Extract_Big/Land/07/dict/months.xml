@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<row_list Qualifyer="MONTHS">
+     <row id="0" status="0" Date_Beg="14.07.2006 13:16:49">
+          <CODE>01</CODE>
+          <NAME>января</NAME>
+     </row>
+     <row id="1" status="0" Date_Beg="14.07.2006 13:16:49">
+          <CODE>02</CODE>
+          <NAME>февраля</NAME>
+     </row>
+     <row id="2" status="0" Date_Beg="14.07.2006 13:16:49">
+          <CODE>03</CODE>
+          <NAME>марта</NAME>
+     </row>
+     <row id="3" status="0" Date_Beg="14.07.2006 13:16:49">
+          <CODE>04</CODE>
+          <NAME>апреля</NAME>
+     </row>
+     <row id="4" status="0" Date_Beg="14.07.2006 13:16:49">
+          <CODE>05</CODE>
+          <NAME>мая</NAME>
+     </row>
+     <row id="5" status="0" Date_Beg="14.07.2006 13:16:49">
+          <CODE>06</CODE>
+          <NAME>июня</NAME>
+     </row>
+     <row id="6" status="0" Date_Beg="14.07.2006 13:16:49">
+          <CODE>07</CODE>
+          <NAME>июля</NAME>
+     </row>
+     <row id="7" status="0" Date_Beg="14.07.2006 13:16:50">
+          <CODE>08</CODE>
+          <NAME>августа</NAME>
+     </row>
+     <row id="8" status="0" Date_Beg="14.07.2006 13:16:50">
+          <CODE>09</CODE>
+          <NAME>сентября</NAME>
+     </row>
+     <row id="9" status="0" Date_Beg="14.07.2006 13:16:50">
+          <CODE>10</CODE>
+          <NAME>октября</NAME>
+     </row>
+     <row id="10" status="0" Date_Beg="14.07.2006 13:16:50">
+          <CODE>11</CODE>
+          <NAME>ноября</NAME>
+     </row>
+     <row id="11" status="0" Date_Beg="14.07.2006 13:16:50">
+          <CODE>12</CODE>
+          <NAME>декабря</NAME>
+     </row>
+</row_list>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_List/07/Common.xsl"?>
+<!-- Все сведения вымышлены. Пример структуры печатной формы, не официальный документ. -->
+<Extract>
+  <eDocument Version="07"/>
+  <ReestrExtract>
+    <DeclarAttribute ExtractDate="2026-10-15" ExtractNumber="ДЕМО-2026-001"/>
+    <ExtractObjectRight>
+      <HeadContent><Title>Демонстрационный набор · не официальный документ</Title><DeptName>Вымышленное управление</DeptName><ExtractTitle>Выписка о переходе прав на объект недвижимости</ExtractTitle></HeadContent>
+      <ExtractObject>
+        <ObjectDesc><ObjectTypeText>Помещение</ObjectTypeText><CadastralNumber>78:01:0000001:100</CadastralNumber><Address><Content>Демонстрационный город, улица Примеров, дом 1</Content></Address></ObjectDesc>
+        <Owner OwnerNumber="1"><Person><Content>Примеров Алексей Иванович</Content></Person></Owner>
+        <Registration RegistrNumber="1"><RegNumber>78:01:0000001:100-78/001/2020-1</RegNumber><RegDate>2020-05-20</RegDate><Name>Собственность</Name></Registration>
+        <Owner OwnerNumber="2"><Person><Content>Демонстрационный новый владелец</Content></Person></Owner>
+        <Registration RegistrNumber="2"><RegNumber>78:01:0000001:100-78/001/2026-2</RegNumber><RegDate>2026-10-01</RegDate><Name>Собственность</Name></Registration>
+      </ExtractObject>
+      <FootContent><Recipient>Получатель демонстрационного документа</Recipient></FootContent>
+    </ExtractObjectRight>
+  </ReestrExtract>
+</Extract>
